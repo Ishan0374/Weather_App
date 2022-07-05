@@ -244,6 +244,12 @@ footer p{
     .main_layer .middle_layer p,.main_layer .middle_layer .fa{
         font-size: 5rem;
     }
+    #weatherContainer{
+        width: auto;
+    }
+    #iconsContainer{
+        width: auto;
+    }
 }
 
 /*Weather1*/
@@ -272,7 +278,7 @@ footer p{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     height: 275px;
-    width: 1280px;
+    width: 100%;
     background-color: lightblue;
 }
 #iconsContainer{
@@ -282,7 +288,7 @@ footer p{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     height: 240px;
-    width: 1180px;
+    width: 100%;
 }
 .icons{
     display: inline-bock;
